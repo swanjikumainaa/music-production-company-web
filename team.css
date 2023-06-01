@@ -1,0 +1,127 @@
+/* .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Add media queries for responsiveness */
+  /* @media (max-width: 768px) {
+    .team-container {
+      flex-direction: column;
+    }
+  }
+   */ 
+
+   .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team-member1{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url(member1.jpg);
+  }
+
+  .team-member1{
+    text-align: center;
+    margin: 20px;   
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url(member1.jpg);
+    background-position:center ;
+    
+  }
+
+  .team-member2{
+    text-align: center;
+    margin: 20px;   
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url(member2.jpg);
+    background-position: center;
+  }
+
+  .team-member3{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url(member3.jpg);
+    background-position: center;
+  }
+  
+  .team-member4{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url(member4.jpg);
+    background-position: center;
+  }
+
+  .team-member5{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url(member5.jpg);
+    background-position: center;
+  }
+  .team-member:hover {
+    transform: scale(1.2);
+  }
+  
+  .member-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
